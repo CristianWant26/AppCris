@@ -14,6 +14,13 @@
 		A32253BA2C89141E008A18CB /* AppCrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32253B92C89141E008A18CB /* AppCrisTests.swift */; };
 		A32253C42C89141E008A18CB /* AppCrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32253C32C89141E008A18CB /* AppCrisUITests.swift */; };
 		A32253C62C89141E008A18CB /* AppCrisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32253C52C89141E008A18CB /* AppCrisUITestsLaunchTests.swift */; };
+		A324DCFB2C8F9BDA00A12EC5 /* ProfesorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A324DCFA2C8F9BDA00A12EC5 /* ProfesorDetailView.swift */; };
+		A326B6D32C90CE000041F032 /* HorarioFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326B6D22C90CE000041F032 /* HorarioFinalView.swift */; };
+		A351491E2C8B6FDC00927EA6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351491D2C8B6FDC00927EA6 /* WelcomeView.swift */; };
+		A35149202C8B700C00927EA6 /* ConsultarProfesoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A351491F2C8B700C00927EA6 /* ConsultarProfesoresView.swift */; };
+		A37F5B462C8A67A500FB630B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37F5B452C8A67A500FB630B /* RegisterView.swift */; };
+		A37F5B482C8A67D500FB630B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37F5B472C8A67D500FB630B /* LoginView.swift */; };
+		A3D92A342C8BB18C004BAA92 /* MateriasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D92A332C8BB18C004BAA92 /* MateriasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		A32253BF2C89141E008A18CB /* AppCrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32253C32C89141E008A18CB /* AppCrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCrisUITests.swift; sourceTree = "<group>"; };
 		A32253C52C89141E008A18CB /* AppCrisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCrisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A324DCFA2C8F9BDA00A12EC5 /* ProfesorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfesorDetailView.swift; sourceTree = "<group>"; };
+		A326B6D22C90CE000041F032 /* HorarioFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioFinalView.swift; sourceTree = "<group>"; };
+		A351491D2C8B6FDC00927EA6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A351491F2C8B700C00927EA6 /* ConsultarProfesoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultarProfesoresView.swift; sourceTree = "<group>"; };
+		A37F5B452C8A67A500FB630B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A37F5B472C8A67D500FB630B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A3D92A332C8BB18C004BAA92 /* MateriasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				A32253A82C89141D008A18CB /* AppCrisApp.swift */,
 				A32253AA2C89141D008A18CB /* ContentView.swift */,
+				A37F5B452C8A67A500FB630B /* RegisterView.swift */,
+				A37F5B472C8A67D500FB630B /* LoginView.swift */,
+				A351491D2C8B6FDC00927EA6 /* WelcomeView.swift */,
+				A351491F2C8B700C00927EA6 /* ConsultarProfesoresView.swift */,
+				A324DCFA2C8F9BDA00A12EC5 /* ProfesorDetailView.swift */,
+				A3D92A332C8BB18C004BAA92 /* MateriasView.swift */,
+				A326B6D22C90CE000041F032 /* HorarioFinalView.swift */,
 				A32253AC2C89141E008A18CB /* Assets.xcassets */,
 				A32253AE2C89141E008A18CB /* Preview Content */,
 			);
@@ -257,7 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A351491E2C8B6FDC00927EA6 /* WelcomeView.swift in Sources */,
+				A37F5B462C8A67A500FB630B /* RegisterView.swift in Sources */,
 				A32253AB2C89141D008A18CB /* ContentView.swift in Sources */,
+				A3D92A342C8BB18C004BAA92 /* MateriasView.swift in Sources */,
+				A37F5B482C8A67D500FB630B /* LoginView.swift in Sources */,
+				A35149202C8B700C00927EA6 /* ConsultarProfesoresView.swift in Sources */,
+				A326B6D32C90CE000041F032 /* HorarioFinalView.swift in Sources */,
+				A324DCFB2C8F9BDA00A12EC5 /* ProfesorDetailView.swift in Sources */,
 				A32253A92C89141D008A18CB /* AppCrisApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppCris/Preview Content\"";
+				DEVELOPMENT_TEAM = 63QSWLDV35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppCris/Preview Content\"";
+				DEVELOPMENT_TEAM = 63QSWLDV35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
