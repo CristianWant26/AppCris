@@ -396,6 +396,7 @@ struct MateriasView: View {
                 }
             }
             .navigationTitle("Horario")
+            .navigationBarTitleDisplayMode(.large)
             .navigationViewStyle(StackNavigationViewStyle())
             
         }
